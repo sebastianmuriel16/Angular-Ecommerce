@@ -1,60 +1,39 @@
-# NgEcommerce
+🛍️ Modern E-Commerce Store
+Una aplicación Single Page Application (SPA) de comercio electrónico moderna, construida con Angular 19, NgRx Signals y Tailwind CSS. Diseñada para ofrecer una experiencia de usuario fluida, reactiva y con una gestión de estado robusta.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+AngularTypeScriptTailwind CSSNgRx
 
-## Development server
+✨ Características
+🚀 Estado Reactivo: Gestión de estado global implementada con @ngrx/signals.
+🔍 Búsqueda y Filtrado: Búsqueda de productos en tiempo real con sincronización en la URL (permite compartir enlaces y recargas de página).
+💾 Persistencia Local: Sincronización automática del carrito y la lista de deseos con localStorage.
+🎨 UI Moderna: Interfaz de usuario responsiva utilizando Angular Material y estilizada con Tailwind CSS v4.
+🛒 Carrito y Deseos: Gestión completa de carrito de compras (cantidades, totales) y lista de deseos.
+📝 Reseñas: Sistema de reseñas de productos con calificaciones y comentarios.
+🔐 Autenticación Simulada: Flujo de login/registro y checkout.
 
-To start a local development server, run:
+🛠️ Stack Tecnológico
+Este proyecto utiliza las siguientes tecnologías principales:
 
-```bash
-ng serve
-```
+Framework: Angular 19.2.0
+Lenguaje: TypeScript 5.7.2
+Gestión de Estado: @ngrx/signals, @ngrx/operators, @angular-architects/ngrx-toolkit
+UI Framework: Angular Material 19.2.19, Angular CDK
+Estilos: Tailwind CSS 4.1.18
+Utilidades: RxJS, @ngxpert/hot-toast (Notificaciones), @ngneat/overview
+Build Tool: Angular CLI 19.2.6
+📋 Prerrequisitos
+Antes de comenzar, asegúrate de tener instalado:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Node.js (v18 o superior recomendado)
+npm (viene con Node.js) o yarn / pnpm
+🚀 Instalación y Ejecución
+Sigue estos pasos para poner el proyecto en marcha en tu máquina local:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Angular-Ecommerce
+Clona el repositorio (o navega a tu carpeta del proyecto):
+git clone https://github.com/tu-usuario/ng-ecommerce.gitcd ng-ecommerce
+Instala las dependencias:
+npm install
+Inicia el servidor de desarrollo:
+npm start
+La aplicación se abrirá automáticamente en http://localhost:4200/.
